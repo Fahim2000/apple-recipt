@@ -8,7 +8,7 @@
 
 body {
   font-family: "Encode Sans SC", sans-serif;
-  margin: 20px;
+
 }
 .wrapper {
   height: 100vh;
@@ -24,7 +24,7 @@ body {
   height: 426px;
   background: #ffffff;
   border-radius: 8px;
-  padding: 3%;
+  padding: 27px;
 }
 
 .gray-color {
@@ -46,19 +46,19 @@ body {
 hr {
   margin-top: 44px;
   border: none;
-  border-top: 1px dashed rgba(128, 128, 128,0.2);
+  border-top: 1px dashed rgba(128, 128, 128, 0.2);
   color: #fff;
   background-color: #fff;
   height: 1px;
   width: 95%;
 }
 
-.items{
-    display: flex;
-    width: 100%;
-    height: 42px;
-    margin-top: 22px;
-    justify-content: space-between;
+.items {
+  display: flex;
+  width: 100%;
+  height: 42px;
+  margin-top: 22px;
+  justify-content: space-between;
 }
 
 /* .little-box{
@@ -68,45 +68,41 @@ hr {
     border-bottom: 3px dashed gray;
 } */
 
-
-span{
-    margin-left: 10px;
+span {
+  margin-left: 10px;
 }
 
-strong{
-    margin-top: 20px;
-    margin-left: 32px;
+strong {
+  margin-top: 20px;
+  margin-left: 32px;
 }
 
-#apple{
-margin-left: 10px;
+#apple {
+  margin-left: 10px;
 }
 
-.end{
-   
-    display: flex;
-    justify-content: space-between;
-    margin-top: 33px;
+.end {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 33px;
 }
 
-
-.heading{
-    display:flex;
+.heading {
+  display: flex;
 }
 
-
-.music-logo{
-    height: 60px;
-    width: 60px;
-    background-color: orangered;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-     box-shadow: 0 0 25px 0.1px #cecece;
+.music-logo {
+  height: 60px;
+  width: 60px;
+  background-color: orangered;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  box-shadow: 0 0 25px 0.1px #cecece;
 }
 
-.num{
-    margin: 2px;
+.num {
+  margin: 2px;
 }
